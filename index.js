@@ -20,6 +20,3 @@ app.use('/api/notes',require('./routes/notes'))
 app.listen(port, () => {
 console.log(`iNotebook webapp listening on port ${port}`)
 })
-
-// Export the Express API
-module.exports = app;
